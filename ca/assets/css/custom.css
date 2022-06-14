@@ -164,15 +164,15 @@ nav, #main_nav{
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card-whyca:nth-child(1):before {
-  background-image: url("/assets/img/Socialtree-rafiki.svg");
+  background-image: url("../img/Socialtree-rafiki.svg");
   transform: translateY(-25px);
 }
 .card-whyca:nth-child(2):before {
-  background-image: url("/assets/img/Organizingprojects-rafiki.svg");
+  background-image: url("../img/Organizingprojects-rafiki.svg");
   transform: translateY(-25px);
 }
 .card-whyca:nth-child(3):before {
-  background-image: url("/assets/img/Teamspirit-rafiki.svg");
+  background-image: url("../img/Teamspirit-rafiki.svg");
   transform: translateY(-25px);
 }
 
