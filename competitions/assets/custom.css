@@ -1,0 +1,58 @@
+.team {
+    background: #fef8f5;
+    padding: 60px 0;
+  }
+  
+  .team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #343a40;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .team .member .member-info {
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: 0.2s;
+  }
+  
+  .team .member .member-info-content {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    transition: bottom 0.4s;
+    background-color: rgba(52, 71, 87, 0.2);
+  }
+  
+  .team .member .member-info-content h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .team .member .member-info-content span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff!important;
+  }
+  
+  .team .member .member-info-content span a {
+    color: #fff!important;
+  }
+  
+  
+  
+  .team .member:hover .member-info {
+    /* background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%); */
+    opacity: 1;
+    transition: 0.4s;
+  }
+  

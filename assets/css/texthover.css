@@ -1,0 +1,44 @@
+@font-face {
+    src: url("/assets/MetaVariableDemo-Set.woff2")
+      format("woff2");
+    /*src: url("C:/Users/User/Desktop/templatemo_561_purple_buzz/AquireBold-8Ma60.otf") format("woff2");*/
+    font-family: "Meta";
+    font-style: normal;
+    font-weight: normal;
+  }
+  subt {
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #787A91;
+  }
+
+  .bg-dark{
+    background-color: transparent!important;
+  }
+
+.main-logo-text {
+  /* height: 0px; */
+    background-color: transparent;
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #fcfcfc;
+    font-variation-settings: "wght" 900, "ital" 1;
+    font-size: 7vmax;
+    text-align: center;
+    color: transparent;
+    font-family: 'Meta'!important;
+    text-shadow: 10px 10px 0px #002366,
+      15px 15px 0px #0F52BA,
+      20px 20px 0px #787A91,
+      25px 25px 0px #EEEEEE;
+      /*45px 45px 10px #482896;*/
+    cursor: pointer;
+  }
+
+.main-logo-text:hover {
+    font-variation-settings: "wght" 100, "ital" 0;
+    text-shadow: none;
+  }

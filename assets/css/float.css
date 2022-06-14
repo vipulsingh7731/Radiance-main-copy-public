@@ -1,0 +1,45 @@
+
+@font-face {
+	font-family: Acquire;
+	src: url("/assets/AquireBold-8Ma60.otf") format("opentype");
+  }
+
+nav{
+    font-family: 'Acquire';
+}
+
+body{
+	font-family: 'Acquire';
+	background-color: black;
+}
+ 
+canvas {
+    position: absolute;
+    z-index: -1;
+    background: white;
+    width: 100%;
+    height: 100vh !important;
+  }
+.ui {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  height: 100vh!important;
+  background: transparent;
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+  }
+  #main_nav .nav-item .nav-link:hover {
+    color: #fff;
+}
+  @media screen and (max-width:992px) {
+    .nav-item {
+      background-color: black;
+      border-radius: 20px;
+    }
+  }
