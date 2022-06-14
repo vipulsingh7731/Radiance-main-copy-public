@@ -1,7 +1,7 @@
 
 @font-face {
 	font-family: Acquire;
-	src: url("/assets/AquireBold-8Ma60.otf") format("opentype");
+	src: url("../AquireBold-8Ma60.otf") format("opentype");
   }
 
 nav{
